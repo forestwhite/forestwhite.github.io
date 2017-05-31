@@ -3,7 +3,10 @@
 * @author forest white
 * @version 0.1
 */
-
+body { 
+  background: lightgray; 
+  margin: 0;
+}
 header {
   color: white;
   text-align: center;
@@ -50,7 +53,10 @@ ul {
   padding: 10px;
   background: rgba(0,0,0,0.6);
 }
-main{ background: lightgray; }
+main{ 
+  margin: 0.5em auto 0.5em auto; 
+  background: lightgray; 
+}
 article {
   max-width: 900px;
   padding: 20px;

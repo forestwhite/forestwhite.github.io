@@ -10,7 +10,6 @@ header {
   background: url("mondrian.png");
   background-size: cover;
 }
-nav { margin: 0 auto 0.5em auto; }
 a.nav {
   color: rgba(100,150,222,1.0);
   text-decoration: none;
@@ -26,12 +25,12 @@ li {
 }
 @media (max-width: 500px) {
   h1 {
-font-size: 36px;
-padding: 5px;
+    font-size: 36px;
+    padding: 5px;
   }
   li {
-padding: 5px;
-display: block;
+    padding: 5px;
+    display: block;
   }
 }
 h2 { text-align: center; }
@@ -51,7 +50,10 @@ ul {
   padding: 10px;
   background: rgba(0,0,0,0.6);
 }
-main{ background: lightgray; }
+main{
+  margin: 0.5em auto 0.5em auto; 
+  background: lightgray;
+}
 article {
   max-width: 900px;
   padding: 20px;
@@ -60,7 +62,6 @@ article {
   border-radius: 10px;
 }
 footer {
-  margin: 0.5em auto 0 auto; 
   padding: 20px;
   background: black;
   color: light gray;

@@ -6,6 +6,7 @@
 body { 
   background: lightgray; 
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 header {
   color: white;
@@ -19,7 +20,7 @@ a.nav {
 }
 h1 {
   font-size: 46;
-  font-family: Garamond;
+  font-family: font-family: 'Antic Slab', serif;
   color: rgba(0,22,80,0.6);
 }
 li {

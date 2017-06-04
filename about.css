@@ -6,22 +6,23 @@
 body { 
   background: lightgray; 
   margin: 0;
-  font-family: 'PT Sans', sans-serif;
 }
 header {
   color: white;
   text-align: center;
   background: url("mondrian.png");
   background-size: cover;
+  font-family: 'Antic Slab', serif;
 }
 a.nav {
   color: rgba(100,150,222,1.0);
   text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
 }
 h1 {
   font-size: 46;
-  font-family: font-family: 'Antic Slab', serif;
   color: rgba(0,22,80,0.6);
+  font-family: 'Antic Slab', serif;
 }
 li {
   display: inline;
@@ -37,7 +38,10 @@ li {
     display: block;
   }
 }
-h2 { text-align: center; }
+h2 {
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+}
 img.displayed {
   display: block;
   margin-left: auto;
@@ -70,3 +74,4 @@ footer {
   background: black;
   color: light gray;
 }
+p { font-family: 'PT Sans', sans-serif; }
